@@ -2,10 +2,10 @@
 
 from add_0 import add
 
-a= 1
-b= 2
+a = 1
+b = 2
 
 
 if __name__ == "__main__":
-    nmAdd  = add(a=a, b=b)
+    nmAdd = add(a=a, b=b)
     print("{} + {} = {}".format(a, b, nmAdd))
