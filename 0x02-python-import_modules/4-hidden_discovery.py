@@ -8,5 +8,4 @@ if __name__ == "__main__":
         if callable(getattr(hidden_4, name)) or not name.startswith('__')
     ]
     for sortname in varfunct:
-        print ("{}".format(sortname)) 
-
+        print("{}".format(sortname))
