@@ -9,5 +9,5 @@ if __name__ == "__main__":
     mulreslt = mul(a=a, b=b)
     print("{} + {} = {}".format(a, b, adreslt))
     print("{} - {} = {}".format(a, b, subreslt))
-    print("{} / {} = {}".format(a, b, divreslt))
     print("{} * {} = {}".format(a, b, mulreslt))
+    print("{} / {} = {}".format(a, b, divreslt))
