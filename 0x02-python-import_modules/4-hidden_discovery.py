@@ -6,7 +6,6 @@ if __name__ == "__main__":
         name
         for name in names
         if callable(getattr(hidden_4, name)) or not name.startswith('__')
-        
     ]
     for sortname in varfunct:
         if sortname != "__init__":
