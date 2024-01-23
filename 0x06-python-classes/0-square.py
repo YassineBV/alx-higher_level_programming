@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 class Square:
-    """this is an empty class
+    """This class represents a square shape.
+    It does not have any attributes or methods defined yet.
     
-
     """
     pass
