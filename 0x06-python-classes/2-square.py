@@ -1,7 +1,7 @@
 #!/usr/bin/python3
+"""Square that defines a square"""
 class Square:
-    """Square that defines a square by: (based on 1-square.py)
-
+    """
     Private instance attribute: size
     Instantiation with optional size: def __init__(self, size=0)
     """
