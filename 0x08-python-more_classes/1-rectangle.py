@@ -64,3 +64,8 @@ class Rectangle:
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         self.__height = value
+    def __dict__(self):
+        """
+        Return a modified dictionary representation of the rectangle.
+        """
+        return dict(reversed(self.__dict__.items()))
