@@ -19,8 +19,8 @@ class Rectangle:
             width: The width of the rectangle. Defaults to 0.
             height: The height of the rectangle. Defaults to 0.
         """
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @property
     def width(self):
@@ -64,8 +64,3 @@ class Rectangle:
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         self.__height = value
-    def __dict__(self):
-        """
-        Return a modified dictionary representation of the rectangle.
-        """
-        return dict(reversed(self.__dict__.items()))
