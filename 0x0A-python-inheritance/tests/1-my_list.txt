@@ -1,0 +1,13 @@
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list_instance = MyList()
+>>> my_list_instance.append(1)
+>>> my_list_instance.append(4)
+>>> my_list_instance.append(2)
+>>> my_list_instance.append(3)
+>>> my_list_instance.append(5)
+>>> print(my_list_instance)
+[1, 4, 2, 3, 5]
+>>> my_list_instance.print_sorted()
+[1, 2, 3, 4, 5]
+>>> print(my_list_instance)
+[1, 2, 3, 4, 5]
