@@ -14,3 +14,6 @@
 >>> empty_list = MyList([])
 >>> empty_list.print_sorted()
 []
+>>> type_test = MyList('tuxt')
+>>> print(type_test)
+nono
